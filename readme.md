@@ -56,6 +56,7 @@
 ![Image alt](img/er_diagramm.jpg)
 
 Так выглядит со стороны теории множеств
+
 ![Image alt](img/eiler_circle.jpg)
 
 ## Задание 2
