@@ -12,7 +12,7 @@ select cr.id_current_rate, cr.tool, cr.operation,
 	   cr."timestamp", cr.id_request, cr.type_request,
 	   cr.price, cr.volume
 from current_rate as cr
-where cr.timestamp between 20181228142249910 and 20181229142249910
+where cr.timestamp between 20181228100000000 and 20181228142249910
 and tool = 'AFH9' and
 not exists
 (select cri.id_current_rate, cri.tool, cri.operation,
@@ -20,7 +20,7 @@ not exists
 	   cri.price, cri.volume
 from current_rate as cri
 where cri.id_request = cr.id_request
-and cri.timestamp between 20181228142249910 and 20181229142249910
+and cri.timestamp between 20181228100000000 and 20181228142249910
 and tool = 'AFH9' and type_request = '0')
 )
 SELECT ar.id_current_rate, ar.tool, ar.operation,
