@@ -32,6 +32,7 @@
 Решение приложено в файле **sql_scripts/task.sql**
 
 Результат выполнения sql скрипта
+
 ![Image alt](img/show_result.png)
 
 # Запуск решения
