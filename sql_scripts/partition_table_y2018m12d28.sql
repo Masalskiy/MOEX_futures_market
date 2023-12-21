@@ -1,6 +1,6 @@
 CREATE TABLE current_rate_y2018m12d28
                                 PARTITION OF current_rate 
-                                FOR VALUES FROM (20181228000000000) TO (20181229000000000)
+                                FOR VALUES FROM (20181228000000000) TO (20181228235959999)
                                 PARTITION BY LIST (tool);
 CREATE TABLE current_rate_y2018m12d28_GZM9 
                                     PARTITION OF current_rate_y2018m12d28 
